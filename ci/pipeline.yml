@@ -5,7 +5,7 @@ jobs:
   - get: cf-java-client
     trigger: true
   - task: maven
-    file: cf-java-client/ci/unit-test.yml
+    file: cf-java-client/ci/unit-test2.yml
 - name: integration-test
   plan:
   - get: cf-java-client
